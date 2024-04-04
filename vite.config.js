@@ -13,4 +13,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/MR-b7r.Wild-Oasis/",
 });
