@@ -13,7 +13,7 @@ function Bookings() {
       </Row>
       <Row>
         <BookingTable />
-        <AddBooking />
+        {/* <AddBooking /> */}
       </Row>
     </>
   );
