@@ -18,7 +18,7 @@ function SignupForm() {
     signup(
       { fullName, email, password },
       {
-        onSettled: () => {
+        onSuccess: () => {
           reset();
           navigate("/login");
         },

@@ -4,7 +4,6 @@ import { updateCurrentUser } from "../../services/apiAuth";
 
 export function useUpdateUser() {
   const queryClient = useQueryClient();
-
   const { isLoading: isUpdating, mutate: updateUser } = useMutation({
     mutationFn: updateCurrentUser,
     onSuccess: () => {
